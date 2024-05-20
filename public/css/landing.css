@@ -1,0 +1,72 @@
+body{
+    margin: auto;
+    box-sizing: border-box;
+
+}
+
+.top{
+    background-color: azure;
+    width: 100%;
+    height: 3%;
+    box-shadow:  14px  rgba(150, 148, 148, 0.555);
+    top: 0;
+    left: 0;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    padding-right: 3%;
+    padding-left: 3%;
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+}
+.top .left{
+    display: flex;
+    gap: 17px;
+
+    justify-content: space-evenly;
+    margin-left: 3%;
+}
+ .left a{
+    text-decoration: none;
+    font-size: large;
+    font-weight: 500;
+    font-family: cursive;
+}
+.top .right{
+    gap: 17PX;
+    padding-right: 10%;
+    display: flex;
+}
+
+.right a{
+    text-decoration: none;
+    font-size: large;
+    font-weight: 500;
+    font-family: cursive;
+}
+.center{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 14%;
+    text-align: center;
+
+}
+.center p{
+    font-size: 40px;
+    font-weight: bold;
+    background: linear-gradient(70deg,dodgerblue,rgb(7, 211, 160));
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    margin-top: 4%;
+    padding-left: 7%;
+
+    /* bg-clip-text text-transparent bg-gradient-to-r from-pink-500 to-sky-800 */
+}
+.center img{
+    width: 400px;
+    height: 400px;
+    padding-right: 7%;
+    background: none;
+    object-fit: cover;
+}

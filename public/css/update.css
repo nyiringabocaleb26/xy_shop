@@ -1,0 +1,48 @@
+body{
+    background-color: rgb(228, 228, 228);
+}
+form{
+    display: flex;
+    flex-direction: column;
+    width: 220px;
+    height: 300px;
+    border-radius: 10px;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    padding-left: 2%;
+    padding-right: 2%;
+    margin-left: 42%;
+    margin-top: 8%;
+    background-color: white;
+}
+form label{
+    font-weight: bold;
+    margin-top: 2%;
+}
+form input{
+    width: 200px;
+    height: 30px;
+    outline: none;
+    border-radius: 10px;
+    border: 2px solid rgb(209, 209, 209);
+    padding-left: 2%;
+    padding-right: 2%;
+    font-weight: bold;
+}
+
+form  button{
+    width: 210px;
+    background-color: dodgerblue;
+    border-radius: 10px;
+    height: 30px;
+    border: none;
+    color: white;
+    font-weight: bold;
+    margin-top: 2%;
+    cursor: pointer;
+}
+form p{
+    font-size: larger;
+    font-weight: bold;
+    margin-left: 12%;
+}
